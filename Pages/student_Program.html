@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--viewport-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    
+    <title>Student Program</title>
+    
+      <!-- glow effect -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100&effect=neon">
+    
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+      <!--    font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--external css sheet-->
+   <link rel="stylesheet" href="../Styles/main.css" type="text/css">
+    
+    <style>
+        main {
+            background: url(../images/YaleLibrary.gif) repeat;
+        }
+        .studentPrograms {
+               
+                border: 3px solid #0f4d93;
+                background-color: #5082f3;
+                color: #fff;
+                text-align: center;
+                margin-bottom: 25px;
+    }
+        section {
+            background-color: #000;
+            /*: 3px solid #5082f3;*/
+        }
+        p {
+            margin-bottom: 0;
+        }
+        
+        /*mobil screen*/
+        @media screen and (min-width: 300px) {
+    
+    article {
+        display: flex;
+        flex-direction: row;
+    } 
+  article > img {
+    margin: 1em;
+}
+   article p {
+    margin-bottom: .5em;
+    padding:1em;
+    border: 3px solid #5082f3;
+   
+}
+   
+    #colWrap {
+      display: flex;
+      justify-content: space-around;
+    }
+        }
+       /*mid screen*/
+        @media screen and (min-width: 510px) {
+              .studentPrograms {
+                display: inherit;
+                border: 3px solid #0f4d93;
+                background-color: #5082f3;
+                color: #fff;
+                text-align: center;
+                margin-bottom: 25px;
+    }
+            section {
+                 background-color: #000;
+                 border: 3px solid #5082f3;
+            }
+       
+        article p {
+         margin-bottom: .5em;
+         padding:1em;
+         border: 3px solid #5082f3;
+         margin-top: 1em;
+    
+}
+         .container {
+        width:510px;
+        height: auto;
+        
+        }
+        div > p {
+        padding: 1em;
+        margin-left: 1em;
+        }
+        #colWrap {
+        display: flex;
+        justify-content: space-around;
+    
+    }
+        .note1, .note2, .note3 {
+                text-align: center;
+                font-weight: bold;
+                font-size: 1.5em;
+               
+            }
+        }
+        /*large screen*/
+        @media screen and (min-width:988px) {
+             section {
+                 background-color: #000;
+                 border: 3px solid #5082f3;
+            }
+            
+            .container {
+                margin-top: 7em;
+                float:left;
+                width:600px;
+                
+            }
+            #colWrap {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                float: right;
+                width: 350px;
+               
+                }
+           
+             .clearIt {
+                clear:both;
+            }
+            
+}
+    </style>
+    
+</head>
+<body>
+    <section id="mainHeader">
+                <header class="menu">
+                    <img src="../images/Yale-Neon-optimal.gif" alt="yale logo">
+                    <input type="checkbox" id="checkbox">
+                        <nav>
+                           <div class="font-effect-neon">
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="../Pages/aboutUs.html">About Us</a></li>
+                                <li><a href="#apply">Apply</a></li>
+                                <li><a href="#social">Social</a></li>
+                                <li><a href="../Pages/Donate.html">Donate</a></li>
+                                <li><a href="#events">Events</a></li>
+                                <li><a href="../Pages/Login.html">Login</a></li>
+                                <li><a href="#financialAid">Financial Aid</a></li>
+                                <li class="subnav"><a href="../Pages/student_Program.html">Student Programs</a>
+    <div class="subnav-content">
+      <a href="../Pages/undergrad_stu.html">Undergraduate Studies</a>
+      <a href="../Pages/graduate_stu.html">Graduate Studies</a>
+      <a href="../Pages/summer_stu.html">Summer Studies</a>
+    </div>
+                                    </li>
+                            </ul>
+                            </div>
+                        </nav>
+                    <label for="checkbox">
+                        <i class="fas fa-bars menuIcon"></i>
+                    </label>
+                </header>
+        </section> <!-- end mainHeader section  -->
+        
+        <main>
+        <article class="studentPrograms">
+           <h1>Student Programs</h1>
+       </article>
+  
+     <div class="container">
+     <article>
+      <section>
+      
+      
+       <img src="../images/studentProgram5.jpg" alt="Student painting" width="500" height="400">
+        <p><a href="https://www.art.yale.edu">The Yale School of Art</a> is a graduate school that confers MFA degrees in Graphic Design, Painting/Printmaking, Photography, and Sculpture.</p>
+        <p>All information on the graduate Program study areas can be found in the appropriate link. <span>For information regarding our undergraduate course offerings here at the Yale School of Art please reference undergraduate programs on our website and all info exclusively by Yale College.</span></p>
+       
+        </section>
+        </article>
+         </div>
+        
+          <!--columnwrap-->
+           <aside id="colWrap">
+              <section>
+               <img src="../images/summer3.png" alt="summer class ad" width="400" height="400">
+               <p class="note1"><a href="../pages/summer_stu.html">Summer</a><p>
+               </section>
+               
+                <section>
+                <img src="../images/red_Undergrad.png" alt=" hand holds grad cap" width="500" height="400">
+                <p class="note2"><a href="../pages/undergrad_stu.html">Undergrad</a></p>
+                </section>
+               
+                <section>
+                <img src="../images/grad3.png" alt="neon pink grad cap" width="400" height="300">
+                <p class="note3"><a href="../pages/graduate_stu.html">Grad</a></p>
+                </section>
+               
+               </aside>
+               <div class="clearIt">
+                   
+               </div>
+          
+         <footer>
+           <p>Yale Art Student &#169; 2020</p>
+           <!--p>a[#]*4, font awesome icons and associated webpage links-->
+           <p>
+               <a href="mailto:jill.weestgard@yale.edu"><i class="far fa-envelope"></i></a>
+               <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+               <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+               <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+              </p>
+        </footer>
+    </main>
+    </body>
+</html>

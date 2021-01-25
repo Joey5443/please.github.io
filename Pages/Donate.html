@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--ViewPort-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    
+    <title>Donate</title>
+     
+     <!-- glow effect -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100&effect=neon">
+    
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+      <!--    font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--external css sheet-->
+    <link rel="stylesheet" href="../Styles/main.css" type="text/css">
+    <!--internal style sheet-->
+    <style>
+        
+        h3 {
+            background-color: #5082f3;
+            text-align: center;
+            color: #fff;
+}
+        main {
+            background: url(../images/YaleLibrary.gif) repeat;
+        }
+        section {
+                 /*background-color: #000;*/
+                 color: #0f4d93;
+                 font-size: 1em;
+                 line-height: 1.4;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: stretch;
+  }
+        /*parent child descendant*/
+        li > a{
+            list-style-type: none;
+            color: #5082f3;
+            
+          
+        }
+        li > a:hover {
+            color:darkviolet;
+        }
+        .aFund, .eFund, .pGiving {
+                 background-color: #000;
+                 border: none;
+                 padding: 1em;
+
+}
+        /*class*/
+        .Donate {
+               
+                border: 3px solid #0f4d93;
+                background-color: #5082f3;
+                color: #fff;
+                text-align: center;
+               /* margin-bottom: 25px;*/
+    }
+        button {
+    background-color: #0065ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+button:hover {
+          opacity: 0.8;
+}
+        
+        /*mid screen*/
+        @media screen and (min-width:400px) {
+            
+             section { 
+                    flex-direction: row;
+                    justify-content: space-around;
+                    flex-direction:column;
+                   
+       }
+            section > div {
+                    flex: 0 30%;
+            }
+            .aFund, .eFund, .pGiving {
+                    background-color: #000;
+                    border: solid 3px #5082f3;
+                    margin-bottom: 2em;
+                    margin-top: 2em;
+}
+            
+            
+        }
+        /*large screen*/
+        @media screen and (min-width:988px) {
+             section {
+                    
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+       }
+            section > div {
+                    flex: 0 30%;
+   }
+            .aFund, .eFund, .pGiving {
+                    background-color: #000;
+                    border: solid 3px #5082f3;
+                    margin-bottom: 2em;
+                    margin-top: 2em;
+}
+            
+            
+        }
+    
+    </style>
+    
+</head>
+<body>
+   <section id="mainHeader">
+                <header class="menu">
+                    <img src="../images/Yale-Neon-optimal.gif" alt="yale logo">
+                    <input type="checkbox" id="checkbox">
+                        <nav>
+                           <div class="font-effect-neon">
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="../Pages/aboutUs.html">About Us</a></li>
+                                <li><a href="#apply">Apply</a></li>
+                                <li><a href="#social">Social</a></li>
+                                <li><a href="../Pages/Donate.html">Donate</a></li>
+                                <li><a href="#events">Events</a></li>
+                                <li><a href="../Pages/Login.html">Login</a></li>
+                                <li><a href="#financialAid">Financial Aid</a></li>
+                                <li class="subnav"><a href="../Pages/student_Program.html">Student Programs</a>
+    <div class="subnav-content">
+      <a href="../Pages/undergrad_stu.html">Undergraduate Studies</a>
+      <a href="../Pages/graduate_stu.html">Graduate Studies</a>
+      <a href="../Pages/summer_stu.html">Summer Studies</a>
+    </div>
+                                    </li>
+                            </ul>
+                            </div>
+                        </nav>
+                    <label for="checkbox">
+                        <i class="fas fa-bars menuIcon"></i>
+                    </label>
+                </header>
+        </section> <!-- end mainHeader section  -->
+   <!-- main>article.aFund>h3{Annual Fund}+p^article.eFund>h3{Endowment Funds}+p^article.pGiving>h3{Planned Giving}+p-->
+   <main>
+     <article class="Donate">
+           <h1>Donate</h1>
+       </article>
+      <section>
+          <div class="aFund">
+           <h3>Annual Fund</h3>
+           
+           <p>Gifts from alumni, parents,friends, and anyone interested in art make an immediate impact on the School.<strong>Scholarship Funds </strong>are the top priority and the money recieved from the <span>Annual Fund donations directly suppors our students. Gift of all sizes make an impact.</span>
+           </p>
+           </div>
+          
+         <div class="eFund">
+            <h3>Endowment Funds</h3>
+            
+            <p>Gift commitments of $50,000 or more (over a period of up to five years) can be directed to the Yale Endowment to provide on going support for the school of Art.These gifts are invested into growing steadily overtime and providing more and more distributed income to the school each year.</p>
+            <p><span>Endowment gifts can support scholarships,faculty, research,travel and capital needs.To discuss making an endowment:</span></p>
+            <ul>
+            <li> <strong>Please contact:</strong> Jill Westgard our Director of Development at Yale School of Art</li>
+             <li><strong>E-mail:</strong>
+             <!--mailto-->
+             <a href="mailto:jill.weestgard@yale.edu">jill.weestgard@yale.edu</a>
+             </li>
+             <li><strong> phone:</strong> 1(203) 432-5846</li>
+             </ul>
+        </div>
+      
+        <div class="pGiving">
+           <h3>Planned Giving</h3>
+           
+           <p>
+           <strong><em>You can support the school through bequest, annuities, trusts and other financial vehicles.</em></strong></p>
+           <p>Surprises are nice and definetly welcomed, but if possible please be sure to contact the Director of Development at the Yale School of Art to discuss your planned gift. This inturn helps insure that your vision is carried out as intended.</p>
+           <p>It is important to be clear and state specifically what programs you would like to support in regards to school i.e. scholarships, students, faculty and so on.<strong> It is strongly recommended to assertain your declaration:</strong><span>"I give dollars and or intrust assets to Yale Art Students at Yale University located in New Haven, Connecticut." </span>This ensures legally that there are no errors and or misdistribution of current and future donations.</p>
+        </div>
+       </section>
+         <!--section.button>p{Donate}-->
+         <button type="submit" >Donate</button>
+          
+          
+    
+    <footer>
+           <p>Yale Art Student &#169; 2020</p>
+           <!--p>a[#]*4, font awesome icons and associated webpage links-->
+           <p>
+               <a href="mailto:jill.weestgard@yale.edu"><i class="far fa-envelope"></i></a>
+               <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+               <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+               <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+              </p>
+        </footer>
+   
+       </main>
+  </body>
+</html>

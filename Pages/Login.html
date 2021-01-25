@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Log Into Your Account </title>
+    <!-- glow effect -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100&effect=neon">
+    <!--    font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--     google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Styles/base.css" type="text/css">
+    <style>
+        .cover{
+            background-image: url(../Images/YaleLibrary.gif);
+        }
+        form{
+            border: solid 3px #666;
+            width: 100%;
+            background:#fff;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .psw a {
+            color: #0065ff;
+        }
+/* Full-width inputs */
+        input[type=text], input[type=password] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+        button {
+          background-color: #0065ff;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 25%;
+}
+
+/* Add a hover effect for buttons */
+        button:hover {
+          opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+        .cancelbtn {
+          width: auto;
+          padding: 10px 18px;
+          background-color: #f44336;
+}
+/* Add padding to containers */
+        .container {
+          padding: 16px;
+}
+
+/* The "Forgot password" text */
+        span.psw {
+          float: right;
+          padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (min-width: 440px) {
+    span.psw {
+      display: block;
+      float: none;
+          }
+    .cancelbtn {
+      width: 30%;
+      text-align: center;
+    }
+    form{
+        max-width: 50%;
+    }
+        }
+    </style>
+</head>
+<body>
+
+            
+               <section id="mainHeader">
+                <header class="menu">
+                    <img src="../Images/Yale-Neon-optimal.gif" alt="yale logo">
+                    <input type="checkbox" id="checkbox">
+                        <nav>
+                           <div class="font-effect-neon">
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="../Pages/aboutUs.html">About Us</a></li>
+                                <li><a href="#apply">Apply</a></li>
+                                <li><a href="#social">Social</a></li>
+                                <li><a href="../Pages/Donate.html">Donate</a></li>
+                                <li><a href="#events">Events</a></li>
+                                <li><a href="../Pages/Login.html">Login</a></li>
+                                <li><a href="#financialAid">Financial Aid</a></li>
+                               <li class="subnav"><a href="../Pages/student_Program.html">Student Programs</a>
+    <div class="subnav-content">
+      <a href="../Pages/undergrad_stu.html">Undergraduate Studies</a>
+      <a href="../Pages/graduate_stu.html">Graduate Studies</a>
+      <a href="../Pages/summer_stu.html">Summer Studies</a>
+    </div>
+                                   </li>
+                            </ul>
+                            </div>
+                        </nav>
+                    <label for="checkbox">
+                        <i class="fas fa-bars menuIcon"></i>
+                    </label>
+                </header>
+        </section> <!-- end mainHeader section  -->
+<section class="cover">   
+    <form>
+
+      <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input id="uname" type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input id="psw" type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+ </section>
+        <footer>
+           <p>Yale Art Student &copy; 2020</p>
+           <!-- p>a[#]*4-->
+           <p>
+               <a href="#"><i class="far fa-envelope"></i></a>
+               <a href="#"><i class="fab fa-facebook-square"></i></a>
+               <a href="#"><i class="fab fa-twitter-square"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+              </p>
+        </footer>
+</body>
+</html>
+
+
+
+
+
+
